@@ -93,29 +93,27 @@ h6 {
     .intro-message {
         padding-bottom: 15%;
     }
-
     .intro-message > h1 {
         font-size: 2em;
-        color: #D2493A;
+    }
+        
+    .intro-message > h3 {
+        font-size: 1.7em;
     }
     .lead {
-    font:11px "Microsoft JhengHei",  sans-serif;
+    font:0.9em "Microsoft JhengHei",  sans-serif;
     line-height:1.5;
     letter-spacing: 1.3px;
     margin:0 0 20px;
-      
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
