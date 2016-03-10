@@ -7,7 +7,7 @@
 * h1=網頁標題
 * h2=文章標題
 * h3=網頁次標題
-* ??=navi
+* h5=navi
 * lead=內文
 */
 
@@ -55,7 +55,7 @@ h6 {
 }
 
 .lead {
-  font:16px "Microsoft JhengHei",  sans-serif;
+  font:18px "Microsoft JhengHei",  sans-serif;
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
@@ -94,6 +94,11 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+h5 {
+    font:20px,"cwTeXMing" serif;
+    
+    
+}
 
 @media(max-width:767px) {
     .intro-message {
