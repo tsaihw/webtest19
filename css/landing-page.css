@@ -99,7 +99,8 @@ p, ul, ol, table, pre, dl {
     }
 
     .intro-message > h1 {
-        font-size: 7em;
+        font-size: 3em;
+        color: #DA493C;
     }
 
     ul.intro-social-buttons > li {
