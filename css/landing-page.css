@@ -118,12 +118,7 @@ p, ul, ol, table, pre, dl {
     }
 }
 
-@media screen and (max-device-width: 600px) {
-      .intro-message > h1 {
-        font-size: 1em;
-        color: #D2493A;
-    }
-}//手機用
+
 
 @media(max-width:767px) {
     .intro-message {
