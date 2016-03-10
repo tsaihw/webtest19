@@ -91,7 +91,7 @@ p, ul, ol, table, pre, dl {
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
-}//自己加的
+}//自己加的 讓內文sans serif
 
 @media(max-width:767px) {
     .intro-message {
