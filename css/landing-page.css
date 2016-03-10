@@ -95,14 +95,16 @@ h6 {
     }
 
     .intro-message > h1 {
-        font-size: 5px;
+        font-size: 2em;
         color: #D2493A;
     }
-    p, ul, ol, table, pre, dl {
-    font:3px "Microsoft JhengHei",  sans-serif;
-    color: #D2493A;
-    }//改成lead?
-  
+    .lead {
+    font:11px "Microsoft JhengHei",  sans-serif;
+    line-height:1.5;
+    letter-spacing: 1.3px;
+    margin:0 0 20px;
+      
+    }
 
     ul.intro-social-buttons > li {
         display: block;
