@@ -48,6 +48,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                 $(document).on('click.nav','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).removeClass('in').addClass('collapse');
+    }
+});
                 <a class="navbar-brand topnav" href="#">首頁</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,7 +70,7 @@
                     <li>
                         <a href="#services4">Page4</a>
                     </li>
-					<li>
+		    <li>
                         <a href="#services5">Page5</a>
                     </li>
                     <li>
