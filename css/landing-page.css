@@ -58,7 +58,8 @@ h6 {
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
-}//控制內文
+}
+//控制內文
 
 .intro-header {
     padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -68,6 +69,7 @@ h6 {
     background: url(../img/train_xs_by_melconcept-d62uedu.jpg) no-repeat center center;
     background-size: cover;
 }
+//控制標題大小
 
 .intro-message {
     position: relative;
@@ -80,7 +82,8 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-}//控制標題文字
+}
+//控制標題文字
 
 .intro-divider {
     width: 400px;
