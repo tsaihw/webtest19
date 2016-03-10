@@ -45,17 +45,17 @@ h6 {
 
 .topnav {
     font-size: 16px; 
-}
+}//左上那個東西(好像可以拿掉)
 
 .lead {
   font:14px "Microsoft JhengHei",  sans-serif;
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
-}
+}//內文格式
 
 .intro-header {
-    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 10px;
     text-align: Left;
     color: #f8f8f8;
