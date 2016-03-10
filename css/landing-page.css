@@ -94,25 +94,25 @@ p, ul, ol, table, pre, dl {
 }//自己加的 讓內文sans serif
 
 @media all and (min-width: 768px) and (max-width: 1280px) {
-    body{
+    .intro-message > h1 {
       font-size:16px;
       color: #D2493A;
     }
 }
 @media all and (min-width: 480px) and (max-width: 768px) {
-    body{
+    .intro-message > h1 {
       font-size:22px;
       color: #D2493A;
     }
 }
 @media all and (min-width: 320px) and (max-width: 480px) {
-    body{
+    .intro-message > h1 {
       font-size:28px;
       color: #D2493A;
     }
 }
 @media all and (max-width: 320px) {
-    body{
+    .intro-message > h1 {
       font-size:32px;
       color: #D2493A;
     }
