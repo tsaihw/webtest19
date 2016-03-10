@@ -89,15 +89,16 @@ h6 {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-}//標題下橫線
+}
+//標題下橫線
 
 .intro-message > h3 {
     font:"cwTeXMing" serif;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}//小標題
+}
+//小標題
 
 
-//螢幕小於768px時使用下述規則
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -109,12 +110,7 @@ h6 {
     .intro-message > h3 {
         font-size: 1.2em;
     }
-    .lead {
-    font:1.2em "Microsoft JhengHei",  sans-serif;
-    line-height:1.5;
-    letter-spacing: 1.3px;
-    margin:0 0 5px;
-    }
+
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
