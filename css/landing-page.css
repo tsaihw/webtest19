@@ -56,6 +56,7 @@ h6 {
 
 .lead {
   font:18px "Microsoft JhengHei",  sans-serif;
+  font-weight: 400;
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
