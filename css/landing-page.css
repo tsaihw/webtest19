@@ -93,32 +93,12 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }//自己加的 讓內文sans serif
 
-@media all and (min-width: 768px) and (max-width: 1280px) {
-    .intro-message > h1 {
-      font-size:16px;
-      color: #D2493A;
-    }
+@media screen and (max-device-width: 600px) {
+.intro-message > h1 {
+font-size: 1em;
+color: #D2493A;
 }
-@media all and (min-width: 480px) and (max-width: 768px) {
-    .intro-message > h1 {
-      font-size:22px;
-      color: #D2493A;
-    }
-}
-@media all and (min-width: 320px) and (max-width: 480px) {
-    .intro-message > h1 {
-      font-size:28px;
-      color: #D2493A;
-    }
-}
-@media all and (max-width: 320px) {
-    .intro-message > h1 {
-      font-size:32px;
-      color: #D2493A;
-    }
-}
-
-
+}//手機用
 
 @media(max-width:767px) {
     .intro-message {
