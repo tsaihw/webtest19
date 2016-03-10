@@ -43,7 +43,7 @@ body,
 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size:48px;
+    font-size:24px;
 }
 h1,
 h2,
@@ -56,9 +56,7 @@ h6 {
 }
 
 .topnav {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size:48px;
 }
 
 .lead {
