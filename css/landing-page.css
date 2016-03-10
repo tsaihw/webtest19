@@ -3,7 +3,13 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+/*!
+h1=網頁標題
+h2=
+h3=網頁次標題
+??=navi
+lead=內文
+*/
 @font-face {
   font-family: 'cwTeXMing';
   font-style: normal;
@@ -45,14 +51,14 @@ h6 {
 
 .topnav {
     font-size: 16px; 
-}
+}//左上的東西
 
 .lead {
   font:16px "Microsoft JhengHei",  sans-serif;
   line-height:1.5;
   letter-spacing: 1.3px;
   margin:0 0 20px;
-}
+}//控制內文
 
 .intro-header {
     padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -61,7 +67,7 @@ h6 {
     color: #f8f8f8;
     background: url(../img/train_xs_by_melconcept-d62uedu.jpg) no-repeat center center;
     background-size: cover;
-}
+}//控制標題大小
 
 .intro-message {
     position: relative;
@@ -74,21 +80,21 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-}
+}//控制標題文字
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-}
+}//標題下橫線
 
 .intro-message > h3 {
     font:"cwTeXMing" serif;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
+}//小標題
 
 
-
+//螢幕小於768px時使用下述規則
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -98,13 +104,13 @@ h6 {
     }
         
     .intro-message > h3 {
-        font-size: 1.7em;
+        font-size: 1.2em;
     }
     .lead {
-    font:0.9em "Microsoft JhengHei",  sans-serif;
+    font:1.2em "Microsoft JhengHei",  sans-serif;
     line-height:1.5;
     letter-spacing: 1.3px;
-    margin:0 0 20px;
+    margin:0 0 5px;
     }
     ul.intro-social-buttons > li {
         display: block;
