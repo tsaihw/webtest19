@@ -48,8 +48,10 @@ h6 {
 }
 
 .lead {
-    font-size: 16px;
-    font-weight: 400;
+  font:14px "Microsoft JhengHei",  sans-serif;
+  line-height:1.5;
+  letter-spacing: 1.3px;
+  margin:0 0 20px;
 }
 
 .intro-header {
@@ -85,13 +87,6 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-
-p, ul, ol, table, pre, dl {
-  font:12px "Microsoft JhengHei",  sans-serif;
-  line-height:1.5;
-  letter-spacing: 1.3px;
-  margin:0 0 20px;
-}//自己加的 讓內文sans serif
 
 
 @media(max-width:767px) {
