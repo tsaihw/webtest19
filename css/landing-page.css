@@ -68,11 +68,13 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 5px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 5px;
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 10px;
     text-align: Left;
-    color: #363636;
-    background-color: #F3EEE6;
+    color: #f8f8f8;
+    background: url(../img/train_xs_by_melconcept-d62uedu.jpg) no-repeat center center;
+    background-size: cover;
+
 }
 
 .intro-message {
